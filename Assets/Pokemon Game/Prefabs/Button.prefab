@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3626587178368985196}
   - component: {fileID: 3939408217465564802}
   - component: {fileID: 1118683190608885923}
-  - component: {fileID: 854989781412397206}
+  - component: {fileID: -2723322089943458091}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -123,9 +123,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 854989781412397206}
-        m_TargetAssemblyTypeName: LevelController, Assembly-CSharp
-        m_MethodName: onClick
+      - m_Target: {fileID: -2723322089943458091}
+        m_TargetAssemblyTypeName: IconLevelButton, Assembly-CSharp
+        m_MethodName: OnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -135,7 +135,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &854989781412397206
+--- !u!114 &-2723322089943458091
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -144,15 +144,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 2856066888417017362}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b336e917606f6426a9a1faede029be2f, type: 3}
+  m_Script: {fileID: 11500000, guid: cf6a621499fb94fbb93405823dbfb837, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textLevel: {fileID: 5792661799875845690}
-  eventButton:
+  ButtonClicked:
     m_PersistentCalls:
       m_Calls: []
-  doneLevelImage: {fileID: 4424761756806610010}
-  buttonController: {fileID: 1118683190608885923}
+  textLevel: {fileID: 5792661799875845690}
+  imageLevel: {fileID: 4424761756806610010}
+  buttonLevel: {fileID: 1118683190608885923}
 --- !u!1 &6995190077171579029
 GameObject:
   m_ObjectHideFlags: 0
